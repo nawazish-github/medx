@@ -1,7 +1,16 @@
 import React from 'react';
 
-function InputArea() {
-  return <input class="search-box" type="text" name="search-box"></input>
+
+function InputArea(props) {
+  return   <input
+              id="search-box"
+              type="text"
+              name="search-box"
+              placeholder="search..."
+              onInput={props.onSearch}
+              className="search-box"
+            />
+
 }
 
 export default InputArea;

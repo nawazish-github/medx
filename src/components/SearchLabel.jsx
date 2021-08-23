@@ -1,11 +1,10 @@
 import React from 'react';
 
 
-function SearchLabel() {
+function SearchLabel(props) {
+  const{name, stock} = props.data;
   return (
-      <div class="search-label">
-        <h2>Search:</h2>
-      </div>
+        <h2 className="search-label">{name} {stock}</h2>
     );
 }
 export default SearchLabel;

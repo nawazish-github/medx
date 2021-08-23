@@ -1,16 +1,44 @@
 body {
-  background-color: #FFDEDE;
+  background-color: #BCFFB9;
 }
+
 .search-box {
   width: 600px;
   height: 40px;
-  background-color: pink;
-  border-radius: 10px;
+  background-color: #C2F784;
+  border-radius: 20px;
   display: inline-block;
   border-color: white;
+  font-size: 20px;
 }
 
 .search-label {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 25px;
+}
+
+.search-container {
+  display: inline-block;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 100px;
+  min-width: 400px;
+}
+
+.table thead tr {
+  background-color: green;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
 }
