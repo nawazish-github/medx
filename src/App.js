@@ -21,6 +21,7 @@ function App() {
 
   return (
      <div>
+     <div>Header</div>
       <div className="search-container">
         <InputArea
           onSearch={handleSearch}
@@ -29,6 +30,7 @@ function App() {
           {item !== null && <Table name={item.name} stock={item.stock}/>}
         </div>
       </div>
+      <div>Footer</div>
 
       </div>
   );
